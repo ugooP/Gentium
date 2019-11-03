@@ -9,3 +9,9 @@ hamburger.addEventListener('click', function() {
   top_span.classList.toggle('is_close_top_span')
   bottom_span.classList.toggle('is_close_bottom_span')
 })
+
+hamburger.addEventListener('click', function() {
+  var menu = document.querySelector('.menu')
+
+  menu.classList.toggle('open_menu')
+})
