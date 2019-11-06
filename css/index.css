@@ -72,12 +72,27 @@ header .hamburger {
 .is_close_bottom_span {
   transform: translate(0, -7px) rotate(-225deg);
 }
-/*LOGO*/
-.logo {
+/*MAIN1*/
+.main1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 550px;
+  background-color: grey;
+}
+.main1_left_part {
+  height: 500px;
+  display: flex;
+  flex-direction: column; 
+  align-content: space-between;
+}
+.main1_left_part a img {
+  width: 160px;
+}
+.main1_logo {
+  width: 35%;
   float: right;
-  width: 40%;
-  margin-top: 20px;
-  margin-right: 50px;
 }
 /*MENU*/
 .menu {
