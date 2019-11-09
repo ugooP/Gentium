@@ -2,10 +2,40 @@
 <html lang="fr" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Connexion</title>
-    <link rel="stylesheet" href="css/connexion.css">
+    <title>Gentium.</title>
+    <link rel="stylesheet" href="../css/connexion.css">
   </head>
   <body>
+    <header>
+      <a href="../index.html"><img src="../img/home.png" alt="accueil"></a>
+      <h1>Gentium.</h1>
+    </header>
+
+    <div class="main">
+      <div class="left_part">
+        <form action="decouvrir.html" method="post">
+
+          <div class="username">
+            <label for="nominput">Nom d'utilisateur</label>
+            <input type="text" name="username" id="nominput" placeholder="Nom d'utilisateur">
+          </div>
+
+          <div class="mdp">
+            <label for="password">Mot de passe</label>
+            <input type="password" name="mdp" id="password" placeholder="Mot de passe">
+          </div>
+
+          <div class="remember">
+            <label for="remember">Se souvenir de moi</label>
+            <input type="checkbox" name="remember" id="remember">
+          </div>
+
+          <input type="submit" name="connexion" value="Connexion ">
+
+        </form>
+      </div>
+      <img src="../img/logo.png" alt="logo">
+    </div>
 
   </body>
 </html>
