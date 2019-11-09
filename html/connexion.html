@@ -16,21 +16,22 @@
         <form action="decouvrir.html" method="post">
 
           <div class="username">
-            <label for="nominput">Nom d'utilisateur</label>
-            <input type="text" name="username" id="nominput" placeholder="Nom d'utilisateur">
+            <input type="text" name="username" id="nominput" placeholder="Nom d'utilisateur" required>
           </div>
 
           <div class="mdp">
-            <label for="password">Mot de passe</label>
-            <input type="password" name="mdp" id="password" placeholder="Mot de passe">
+            <input type="password" name="mdp" id="password" placeholder="Mot de passe" required>
           </div>
 
           <div class="remember">
-            <label for="remember">Se souvenir de moi</label>
             <input type="checkbox" name="remember" id="remember">
+            <span class="span"></span>
+            <label for="remember">Se souvenir de moi</label>
           </div>
 
-          <input type="submit" name="connexion" value="Connexion ">
+          <input type="submit" name="connexion" value="Connexion" class="connexion">
+          <p>Vous n'avez pas de compte ?</p>
+          <a href="inscription.html">S'inscrire</a>
 
         </form>
       </div>

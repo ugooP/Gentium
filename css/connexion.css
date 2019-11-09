@@ -36,9 +36,66 @@ header a img {
 }
 .left_part {
   grid-column: 2 / span 1;
-  background-color: grey;
 }
 .main img {
   grid-column: 3 / span 1;
   width: 450px;
+}
+/*FORMULAIRE*/
+form {
+  width: 300px;
+}
+form .username input, form .mdp input {
+  width: 100%;
+  padding: 10px 0;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 18px;
+  color: white;
+  background: transparent;
+  border: none;
+  border-bottom: 3px solid #FFBB00;
+  outline: none;
+  font-size: 16px;
+}
+.remember label {
+  color: white;
+  font-size: 14px;
+}
+.remember input {
+  display: none;
+}
+.remember .span {
+  vertical-align: middle;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-image: url("../img/not_checked.png");
+  transition: .1s;
+}
+.remember input:checked + .span {
+  background-image: url("../img/checked.png");
+}
+.connexion {
+  margin-top: 50px;
+  padding: 10px 30px;
+  background-color: #FFBB00;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 70px;
+  cursor: pointer;
+}
+form p {
+  color: grey;
+  font-size: 13px;
+  margin-left: 63px;
+  margin-top: 10px;
+}
+form a {
+  color: white;
+  font-size: 14px;
+  margin-left: 122px;
 }
