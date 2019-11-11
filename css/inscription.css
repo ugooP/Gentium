@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: montserrat, sans-serif;
+}
+body {
+  background-color: #1D1D1D;
+}
+/*HEADER*/
+header {
+  display: block;
+  width: 100%;
+  height: 60px;
+}
+header h1 {
+  font-size: 22px;
+  float: left;
+  margin: 20px 0 0 0;
+  color: white;
+}
+header a img {
+  float: left;
+  height: 22px;
+  padding: 5px;
+  margin: 15px 10px 0 15px;
+}
+/*MAIN*/
+.main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  align-items: center;
+  grid-gap: 7%;
+  width: 100%;
+  height: 550px;
+}
+.right_part {
+  grid-column: 3 / span 1;
+  grid-row: 1 / span 1;
+}
+.main img {
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 1;
+  width: 450px;
+}
+/*FORMULAIRE*/
+form {
+  width: 650px;
+}
+form .prenom, form .mail {
+  margin-left: 10%;
+}
+form .nom, form .prenom, form .username, form .mail, form .password {
+  display: inline;
+  width: 45%;
+  padding: 10px 0;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 14px;
+  color: white;
+  background: transparent;
+  border: none;
+  border-bottom: 3px solid #FFBB00;
+  outline: none;
+}
+.form_inputs {
+  display: flex;
+  flex-flow: row wrap;
+}
+.conditions_générales {
+  margin-top: 15px;
+  font-size: 14px;
+}
+.conditions_générales a {
+  color: #FFBB00;
+}
+.conditions_générales p {
+  color: white;
+}
+.conditions_générales label {
+  position: relative;
+  top: -17px;
+  left: 22px;
+}
+.conditions_générales input {
+  display: none;
+}
+.conditions_générales .span {
+  vertical-align: middle;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-image: url("../img/not_checked.png");
+  transition: .1s;
+}
+.conditions_générales input:checked + .span {
+  background-image: url("../img/checked.png");
+}
+.inscription {
+  margin-top: 20px;
+  padding: 10px 30px;
+  background-color: #FFBB00;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 250px;
+  cursor: pointer;
+}

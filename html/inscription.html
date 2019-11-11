@@ -7,5 +7,33 @@
   </head>
   <body>
 
+    <header>
+      <a href="../index.html"><img src="../img/home.png" alt="accueil"></a>
+      <h1>Gentium.</h1>
+    </header>
+
+    <div class="main">
+      <div class="right_part">
+        <form action="decouvrir.html" method="post">
+          <div class="form_inputs">
+            <input type="text" placeholder="Nom" class="nom" required>
+            <input type="text" placeholder="Prénom" class="prenom" required>
+            <input type="text" placeholder="Nom d'utilisateur" class="username" required>
+            <input type="email" placeholder="Mail" class="mail" required>
+            <input type="password" placeholder="Mot de passe" class="password" required>
+          </div>
+
+          <div class="conditions_générales">
+            <input type="checkbox" id="conditions_générales" required>
+            <span class="span"></span>
+            <label for="conditions_générales"><p>Je confirme avoir lu et accepte les <a href="#">conditions générales d'utilisation</a></p></label>
+          </div>
+
+          <input type="submit" name="inscription" value="S'inscrire" class="inscription">
+        </form>
+      </div>
+      <img src="../img/logo.png" alt="logo">
+    </div>
+
   </body>
 </html>
