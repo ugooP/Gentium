@@ -7,6 +7,52 @@
 body {
   background-color: #1D1D1D;
 }
-header h1 {
-  font-size: 20px;
+/*HEADER*/
+header {
+  display: block;
+  height: 130px;
+}
+header .index {
+  font-size: 22px;
+  font-weight: 700;
+  float: left;
+  margin-top: 7px;
+  margin-left: 75px;
+  text-decoration: none;
+  color: white;
+}
+header .connexion {
+  float: right;
+  margin-right: 20px;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 6px 18px;
+  background-color: #FFBB00;
+  border: 2px solid #FFBB00;
+  border-radius: 50px;
+}
+header .inscription {
+  float: right;
+  margin-right: 40px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 6px 18px;
+  border: 2px solid #FFBB00;
+  border-radius: 50px;
+}
+
+/*MAIN1*/
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main1 img {
+  width: 80%;
+}
+.main1 p {
 }

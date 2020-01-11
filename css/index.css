@@ -13,15 +13,27 @@ header {
   display: block;
   height: 130px;
 }
-header a {
+header .connexion {
+  float: right;
+  margin-right: 20px;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 6px 18px;
+  background-color: #FFBB00;
+  border: 2px solid #FFBB00;
+  border-radius: 50px;
+}
+header .inscription {
   float: right;
   margin-right: 40px;
   text-transform: uppercase;
-  font-weight: 800;
-  font-size: 18px;
+  font-weight: 700;
+  font-size: 15px;
   text-decoration: none;
-  padding: 10px 22px;
-  background-color: #FFBB00;
+  padding: 6px 18px;
+  border: 2px solid #FFBB00;
   border-radius: 50px;
 }
 /*MAIN1*/
