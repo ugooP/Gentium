@@ -9,46 +9,34 @@ body {
 /*HEADER*/
 header {
   display: block;
-  width: 100%;
-  height: 60px;
+  height: 120px;
 }
-header h1 {
+header a {
   font-size: 22px;
+  font-weight: 700;
   float: left;
-  margin: 20px 0 0 0;
+  margin-top: 40px;
+  margin-left: 20px;
+  text-decoration: none;
   color: white;
 }
-header a img {
-  float: left;
-  height: 22px;
-  padding: 5px;
-  margin: 15px 10px 0 15px;
-}
+
 /*MAIN*/
 .main {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  justify-content: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
   align-items: center;
-  grid-gap: 7%;
-  width: 100%;
-  height: 550px;
-}
-.right_part {
-  grid-column: 3 / span 1;
-  grid-row: 1 / span 1;
 }
 .main img {
-  grid-column: 2 / span 1;
-  grid-row: 1 / span 1;
   width: 450px;
 }
 /*FORMULAIRE*/
 form {
-  width: 650px;
+  width: 630px;
 }
 form .prenom, form .mail {
-  margin-left: 10%;
+  margin-left: 5%;
 }
 form .nom, form .prenom, form .username, form .mail, form .password {
   display: inline;
@@ -75,6 +63,7 @@ form .nom, form .prenom, form .username, form .mail, form .password {
   color: #FFBB00;
 }
 .conditions_générales p {
+  cursor: pointer;
   color: white;
 }
 .conditions_générales label {
@@ -88,6 +77,7 @@ form .nom, form .prenom, form .username, form .mail, form .password {
 .conditions_générales .span {
   vertical-align: middle;
   display: inline-block;
+  cursor: pointer;
   width: 15px;
   height: 15px;
   background-image: url("../img/not_checked.png");
@@ -104,7 +94,7 @@ form .nom, form .prenom, form .username, form .mail, form .password {
   border-radius: 50px;
   color: white;
   font-size: 20px;
-  font-weight: 500;
-  margin-left: 250px;
+  font-weight: 700;
+  margin-left: 230px;
   cursor: pointer;
 }

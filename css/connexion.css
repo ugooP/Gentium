@@ -9,41 +9,31 @@ body {
 /*HEADER*/
 header {
   display: block;
-  width: 100%;
-  height: 60px;
+  height: 120px;
 }
-header h1 {
+header a {
   font-size: 22px;
+  font-weight: 700;
   float: left;
-  margin: 20px 0 0 0;
+  margin-top: 40px;
+  margin-left: 20px;
+  text-decoration: none;
   color: white;
 }
-header a img {
-  float: left;
-  height: 22px;
-  padding: 5px;
-  margin: 15px 10px 0 15px;
-}
+
 /*MAIN*/
 .main {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 15%;
-  justify-content: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
   align-items: center;
-  width: 100%;
-  height: 550px;
-}
-.left_part {
-  grid-column: 2 / span 1;
 }
 .main img {
-  grid-column: 3 / span 1;
   width: 450px;
 }
 /*FORMULAIRE*/
 form {
-  width: 300px;
+  width: 330px;
 }
 form .username input, form .mdp input {
   width: 100%;
@@ -61,6 +51,7 @@ form .username input, form .mdp input {
 .remember label {
   color: white;
   font-size: 14px;
+  cursor: pointer;
 }
 .remember input {
   display: none;
@@ -68,6 +59,7 @@ form .username input, form .mdp input {
 .remember .span {
   vertical-align: middle;
   display: inline-block;
+  cursor: pointer;
   width: 15px;
   height: 15px;
   background-image: url("../img/not_checked.png");
@@ -84,7 +76,7 @@ form .username input, form .mdp input {
   border-radius: 50px;
   color: white;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 700;
   margin-left: 70px;
   cursor: pointer;
 }
