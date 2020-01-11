@@ -10,83 +10,47 @@ body {
 /*INDEX*/
 /*HEADER*/
 header {
-  width: 100%;
-  height: 60px;
-  z-index: 2;
+  display: block;
+  height: 130px;
 }
 header a {
-  position: absolute;
-    right: 20px;
-    top: 15px;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 14px;
-  text-decoration: none;
-  padding: 8px 15px;
-  background-color: #FFBB00;
   float: right;
+  margin-right: 40px;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 10px 22px;
+  background-color: #FFBB00;
   border-radius: 50px;
 }
 /*MAIN1*/
 .main1 {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 15%;
-  justify-content: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
   align-items: center;
-  width: 100%;
-  height: 550px;
 }
 .main1_left_part {
-  grid-column: 2 / span 1;
-  height: 500px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-content: space-between;
 }
 .main1_left_part a {
   width: 200px;
 }
 .main1_left_part h1 {
-  font-size: 80px;
+  font-family: "stella", sans-serif;
+  font-size: 150px;
+  font-weight: 500;
 }
 .main1_left_part p {
   font-size: 20px;
 }
 .main1_left_part a img {
-  width: 200px;
-}
-.main1_left_part h1, .main1_left_part p, .main1_left_part a {
-  margin: 10px;
+  width: 240px;
+  margin-top: 25px;
 }
 .main1_logo {
   width: 450px;
-}
-/*SPAN1*/
-#span1 {
-  position: absolute;
-    top: 650px;
-  width: 100%;
-  height: 3px;
-  display: flex;
-  justify-content: center;
-}
-#span1 span {
-  width: 65%;
-  height: 3px;
-  background-color: #FFBB00;
-}
-/*MAIN2*/
-.main2 {
-  width: 100%;
-  height: 550px;
-  margin-top: 100px;
-  display: flex;
-  flex-direction: row;
-  align-content: center;
-  background-color: grey;
-}
-.main2 img {
-  width: 70%;
 }
