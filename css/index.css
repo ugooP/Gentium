@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +12,7 @@ body {
 /*HEADER*/
 header {
   display: block;
-  height: 130px;
+  height: 80px;
 }
 header .connexion {
   float: right;
@@ -42,6 +43,7 @@ header .inscription {
   flex-flow: row wrap;
   justify-content: space-around;
   align-items: center;
+  margin-top: 10vh;
 }
 .main1_left_part {
   display: flex;
@@ -52,15 +54,16 @@ header .inscription {
   width: 200px;
 }
 .main1_left_part h1 {
-  font-family: "stella", sans-serif;
+  font-family: "Kaushan Script", sans-serif;
   font-size: 150px;
-  font-weight: 500;
+  font-weight: 400;
+  margin: -40px 0 -15px -20px;
 }
 .main1_left_part p {
   font-size: 20px;
 }
 .main1_left_part a img {
-  width: 240px;
+  width: 220px;
   margin-top: 25px;
 }
 .main1_logo {

@@ -13,9 +13,9 @@ header {
 }
 header a {
   font-size: 22px;
-  font-weight: 700;
+  font-family: "Kaushan Script";
   float: left;
-  margin-top: 40px;
+  margin-top: 20px;
   margin-left: 20px;
   text-decoration: none;
   color: white;
