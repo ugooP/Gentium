@@ -51,7 +51,24 @@ header .inscription {
   align-content: space-between;
 }
 .main1_left_part a {
-  width: 200px;
+  background-color: #FFBB00;
+  padding: 12px 24px;
+  width: 160px;
+  text-decoration: none;
+  font-weight: 650;
+  border-radius: 40px;
+  font-size: 24px;
+  margin-top: 20px;
+}
+.main1_left_part a img {
+  width: 25px;
+  vertical-align: middle;
+  position: relative;
+    left: 8px;
+  transition: left .5s;
+}
+.main1_left_part a:hover img {
+  left: 18px;
 }
 .main1_left_part h1 {
   font-family: "Kaushan Script", sans-serif;
@@ -61,10 +78,6 @@ header .inscription {
 }
 .main1_left_part p {
   font-size: 20px;
-}
-.main1_left_part a img {
-  width: 220px;
-  margin-top: 25px;
 }
 .main1_logo {
   width: 450px;

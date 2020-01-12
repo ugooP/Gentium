@@ -85,6 +85,13 @@ header .inscription {
   background-color: #FFBB00;
   border-radius: 40px;
   box-shadow: 0 0 25px 10px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card1_top_img, .card2_top_img, .card3_top_img {
+  margin-top: 20px;
 }
 .card2 {
   width: 430px;
@@ -92,4 +99,34 @@ header .inscription {
   background-color: #FFBB00;
   border-radius: 40px;
   margin: 0 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card1_btn a, .card2_btn a, .card3_btn a {
+  text-decoration: none;
+  padding: 18px 24px;
+  font-size: 22px;
+  font-weight: 700;
+  background-color: #1D1D1D;
+  border-radius: 70px;
+}
+.card1_btn a img, .card2_btn a img, .card3_btn a img {
+  vertical-align: middle;
+  width: 50px;
+  position: relative;
+    bottom: 2px;
+    left: 16px;
+  transition: transform .5s;
+}
+.card2_btn a {
+  font-size: 26px;
+  padding: 20px 26px;
+}
+.card2_btn a img {
+  width: 55px;
+}
+.card1_btn a:hover img, .card2_btn a:hover img, .card3_btn a:hover img {
+  transform: rotate(240deg);
 }
