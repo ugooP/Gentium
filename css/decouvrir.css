@@ -64,7 +64,7 @@ header .inscription {
   font-weight: bold;
 }
 
-.sep1 {
+.sep {
   display: block;
   width: 50%;
   margin: 80px 25%;
@@ -80,29 +80,27 @@ header .inscription {
   align-items: flex-end;
 }
 .card1, .card3 {
-  width: 330px;
-  height: 530px;
+  width: 300px;
+  height: 500px;
   background-color: #FFBB00;
   border-radius: 40px;
   box-shadow: 0 0 25px 10px black;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-}
-.card1_top_img, .card2_top_img, .card3_top_img {
-  margin-top: 20px;
+  justify-content: space-around;
 }
 .card2 {
-  width: 430px;
-  height: 630px;
+  width: 380px;
+  height: 580px;
   background-color: #FFBB00;
   border-radius: 40px;
+  box-shadow: 0 0 25px 10px black;
   margin: 0 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 .card1_btn a, .card2_btn a, .card3_btn a {
   text-decoration: none;
@@ -112,9 +110,21 @@ header .inscription {
   background-color: #1D1D1D;
   border-radius: 70px;
 }
+.card1_btn {
+  position: relative;
+    top: 15px;
+}
+.card1_top_img {
+  position: relative;
+    bottom: 15px;
+}
+.card1_ul li, .card2_ul li, .card3_ul li {
+  font-weight: 600;
+  margin-top: 5px;
+}
 .card1_btn a img, .card2_btn a img, .card3_btn a img {
   vertical-align: middle;
-  width: 50px;
+  width: 46px;
   position: relative;
     bottom: 2px;
     left: 16px;
@@ -129,4 +139,29 @@ header .inscription {
 }
 .card1_btn a:hover img, .card2_btn a:hover img, .card3_btn a:hover img {
   transform: rotate(240deg);
+}
+/*MAIN3*/
+.main3 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+.main3 a {
+  background-color: #FFBB00;
+  padding: 12px 30px;
+  text-decoration: none;
+  font-weight: 650;
+  border-radius: 40px;
+  font-size: 24px;
+  margin-top: 20px;
+}
+.main3 a img {
+  width: 25px;
+  vertical-align: middle;
+  position: relative;
+    left: 8px;
+  transition: left .5s;
+}
+.main3 a:hover img {
+  left: 18px;
 }
