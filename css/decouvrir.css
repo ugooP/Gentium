@@ -14,7 +14,7 @@ header {
 }
 header .index {
   font-size: 22px;
-  font-family: "Kaushan Script";
+  font-family: "Kaushan Script", montserrat, sans-serif;
   float: left;
   margin-top: 3px;
   margin-left: 75px;
