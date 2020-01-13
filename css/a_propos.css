@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: montserrat, sans-serif;
+  color: white;
+}
+body {
+  background-color: #1D1D1D;
+}
+/*HEADER*/
+header {
+  display: block;
+  height: 170px;
+}
+header .index {
+  font-size: 22px;
+  font-family: "Kaushan Script", montserrat, sans-serif;
+  float: left;
+  margin-top: 3px;
+  margin-left: 75px;
+  text-decoration: none;
+  color: white;
+}
+header .connexion {
+  float: right;
+  margin-right: 20px;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 6px 18px;
+  background-color: #FFBB00;
+  border: 2px solid #FFBB00;
+  border-radius: 50px;
+}
+header .inscription {
+  float: right;
+  margin-right: 40px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 6px 18px;
+  border: 2px solid #FFBB00;
+  border-radius: 50px;
+}
+
+/*MAIN1*/
+.main {
+  display: flex;
+  flex-direction: row;
+}
+ul {
+  width: 200px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+.tabs {
+  border-right: 3px solid #FFBB00;
+  margin-left: 70px;
+}
+.tabs a{
+  float: right;
+  padding: 15px;
+  background-color: #272727;
+  color: #727272;
+  font-weight: 600;
+  text-align: center;
+  width: 100%;
+  text-decoration: none;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  opacity: .6;
+  transition: opacity .3s;
+}
+.tabs a:hover {
+  opacity: 1;
+}
+.tabs .active {
+  background-color: #FFBB00;
+  color: white;
+  opacity: 1;
+}
+.active a {
+  background-color: #FFBB00;
+  color: white;
+  opacity: 1;
+}
+.tabs_content {
+  padding: 15px;
+}
+.tabs_content p {
+  text-indent: 30px;
+  text-align: justify;
+  color: white;
+}
+.tab_content {
+  color: white;
+  display: none;
+}
+.tab_content.active {
+  display: block;
+}
