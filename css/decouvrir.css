@@ -80,8 +80,8 @@ header .inscription {
   align-items: flex-end;
 }
 .card1, .card3 {
-  width: 300px;
-  height: 500px;
+  width: 280px;
+  height: 450px;
   background-color: #FFBB00;
   border-radius: 40px;
   box-shadow: 0 0 25px 10px black;
@@ -91,8 +91,8 @@ header .inscription {
   justify-content: space-around;
 }
 .card2 {
-  width: 380px;
-  height: 580px;
+  width: 330px;
+  height: 530px;
   background-color: #FFBB00;
   border-radius: 40px;
   box-shadow: 0 0 25px 10px black;
@@ -104,7 +104,7 @@ header .inscription {
 }
 .card1_btn a, .card2_btn a, .card3_btn a {
   text-decoration: none;
-  padding: 18px 24px;
+  padding: 13px 20px;
   font-size: 22px;
   font-weight: 700;
   background-color: #1D1D1D;
@@ -124,18 +124,18 @@ header .inscription {
 }
 .card1_btn a img, .card2_btn a img, .card3_btn a img {
   vertical-align: middle;
-  width: 46px;
+  width: 40px;
   position: relative;
     bottom: 2px;
-    left: 16px;
+    left: 13px;
   transition: transform .5s;
 }
 .card2_btn a {
-  font-size: 26px;
-  padding: 20px 26px;
+  font-size: 24px;
+  padding: 15px 20px;
 }
 .card2_btn a img {
-  width: 55px;
+  width: 45px;
 }
 .card1_btn a:hover img, .card2_btn a:hover img, .card3_btn a:hover img {
   transform: rotate(240deg);

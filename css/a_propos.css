@@ -10,7 +10,7 @@ body {
 /*HEADER*/
 header {
   display: block;
-  height: 170px;
+  height: 200px;
 }
 header .index {
   font-size: 22px;
@@ -88,11 +88,13 @@ ul {
   opacity: 1;
 }
 .tabs_content {
-  padding: 15px;
+  padding: 0 80px;
+  display: flex;
+  align-items: center;
 }
 .tabs_content p {
   text-indent: 30px;
-  text-align: justify;
+  text-align: center;
   color: white;
 }
 .tab_content {
@@ -101,4 +103,10 @@ ul {
 }
 .tab_content.active {
   display: block;
+}
+.footer {
+  width: 100%;
+  position: absolute;
+    bottom: 0;
+  margin-top: 100px;
 }
