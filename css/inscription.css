@@ -99,3 +99,9 @@ form .nom, form .prenom, form .username, form .mail, form .password {
   margin-left: 230px;
   cursor: pointer;
 }
+/*RESPONSIVE*/
+@media (max-width: 1100px) {
+  .main img {
+    display: none;
+  }
+}

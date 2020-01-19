@@ -81,3 +81,9 @@ header .inscription {
 .main1_logo {
   width: 450px;
 }
+/*RESPONSIVE*/
+@media (max-width: 1100px) {
+  .main1_logo {
+    display: none;
+  }
+}

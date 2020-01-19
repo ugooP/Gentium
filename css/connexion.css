@@ -92,3 +92,9 @@ form a {
   font-size: 14px;
   margin-left: 122px;
 }
+/*RESPONSIVE*/
+@media (max-width: 900px) {
+  .main img {
+    display: none;
+  }
+}
