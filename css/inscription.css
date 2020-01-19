@@ -9,7 +9,7 @@ body {
 /*HEADER*/
 header {
   display: block;
-  height: 120px;
+  height: 60px;
 }
 header a {
   font-size: 22px;
@@ -23,6 +23,7 @@ header a {
 
 /*MAIN*/
 .main {
+  height: 90vh;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
