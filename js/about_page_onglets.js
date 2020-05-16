@@ -1,11 +1,4 @@
-/*
-  Quand on clique sur un onglet :
-    si l'onglet a la classe active on fait rien
-    si l'onglet n'a pas la classe active on lui ajoute et on supprime cette classe
-    à l'onglet qui l'avait déjà
-*/
-
-const tabs = document.querySelectorAll('.tabs a')
+const tabs = document.querySelectorAll('.tabs a') 
 
 for (var i = 0; i < tabs.length; i++) {
   tabs[i].addEventListener('click', function(e) {
